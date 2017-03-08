@@ -23,7 +23,8 @@ documents into XML using the
 * Compile and install `nifi-edireader-processor`
 
 ```bash
-> cd nifi-edireader-processor
+> git clone Dave3o3/nifi-edireader-bundle.git
+> cd nifi-edireader-bundle/nifi-edireader-processors
 > mvn package
 > cp nifi-edireader-nar/target/nifi-edireader-nar-0.0.1.nar /NIFI_INSTALL/lib/
 ```
